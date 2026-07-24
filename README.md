@@ -142,25 +142,7 @@ When a user selects a movie, the system identifies the most similar movies based
 
 #  Recommendation Algorithm
 
-Movie Dataset
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Feature Extraction
-      │
-      ▼
-Combine Movie Tags
-      │
-      ▼
-TF-IDF Vectorization
-      │
-      ▼
-Cosine Similarity Matrix
-      │
-      ▼
-Top 10 Similar Movies
+The recommendation system begins by loading the movie dataset and performing data cleaning to remove missing or unnecessary information. Important movie features such as genres, cast, crew, keywords, and overview are extracted and combined into a single text field. This text is then converted into numerical feature vectors using **TF-IDF Vectorization**. Finally, **Cosine Similarity** is applied to compare movies and recommend the top 10 most similar movies based on the selected movie.
 
 ---
 
