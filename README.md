@@ -75,7 +75,7 @@ The datasets include:
 
 ---
 
-# ⚙️ Project Workflow
+# Project Workflow
 
 ### Step 1: Import Required Libraries
 
